@@ -51,6 +51,13 @@ const main = async () => {
         title: "Unit 1",
         description: "Learn the basics of Spanish",
         order: 1,
+      },
+      {
+        id: 2,
+        courseId: 1, // Spanish
+        title: "Unit 2",
+        description: "Continue your Spanish journey",
+        order: 2,
       }
     ]);
 
