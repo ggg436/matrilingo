@@ -1,0 +1,77 @@
+
+{
+    "lesson_title": "Basic Greetings",
+    "questions": [
+        {
+            "concept_id": "people_1",
+            "topic": "People",
+            "question_type": "multiple_choice_image",
+            "prompt_tharu": "Man in Tamang",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": [
+                        { "image": "images/man.svg", "text": "????" },
+                        { "image": "images/woman.svg", "text": "????" },
+                        { "image": "images/robot.svg", "text": "?????" }
+                    ],
+                    "answer": "????"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_1",
+            "topic": "Greetings",
+            "question_type": "multiple_choice",
+            "prompt_tharu": "Hello in Tamang",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": ["????", "????", "???????"],
+                    "answer": "????"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_2",
+            "topic": "Greetings",
+            "question_type": "multiple_choice",
+            "prompt_tharu": "Thank you in Tamang",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": ["????", "????", "???????"],
+                    "answer": "???????"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_3",
+            "topic": "Greetings",
+            "question_type": "translation_input",
+            "prompt_tharu": "My name is Dorje",
+            "media": {},
+            "languages": {
+                "tharu": {
+                    "prompt": "My name is Dorje"
+                },
+                "tamang": {
+                    "answer": "?? ??? ?????? ?????"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_4",
+            "topic": "Greetings",
+            "question_type": "select_the_word",
+            "prompt_tharu": "Goodbye in Tamang",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": ["????", "???????", "????", "??????"],
+                    "answer": "????"
+                }
+            }
+        }
+    ]
+}

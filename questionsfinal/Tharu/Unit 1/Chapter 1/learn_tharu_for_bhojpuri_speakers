@@ -1,0 +1,231 @@
+{
+    "lesson_title": "अभिवादन आ मूल वाक्यांश",
+    "questions": [
+        {
+            "concept_id": "people_1",
+            "topic": "People",
+            "question_type": "multiple_choice_image",
+            "prompt_bhojpuri": "एहि में से कौन 'आदमी' हवे?",
+            "media": {},
+            "languages": {
+                "tharu": {
+                    "options": [
+                        { "image": "images/man.svg", "text": "मर्द" },
+                        { "image": "images/woman.svg", "text": "औरत" },
+                        { "image": "images/robot.svg", "text": "रोबोट" }
+                    ],
+                    "answer": "मर्द"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_1",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_bhojpuri": "एहि में से कौन 'प्रणाम' हवे?",
+            "media": {},
+            "languages": {
+                "tharu": {
+                    "options": [ "नमस्कार", "धन्यवाद", "फेर भेटब" ],
+                    "answer": "नमस्कार"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_2",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_bhojpuri": "एहि में से कौन 'धनवाद' हवे?",
+            "media": {},
+            "languages": {
+                "tharu": {
+                    "options": [ "नमस्कार", "धन्यवाद", "स्वागत हय" ],
+                    "answer": "धन्यवाद"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_3",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "translation_input",
+            "prompt_bhojpuri": "एकरा थारु भाषा में लिखीं",
+            "media": {},
+            "languages": {
+                "bhojpuri": {
+                    "prompt": "हमार नाम राम बा"
+                },
+                "tharu": {
+                    "answer": "हमर नाम राम हय"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_4",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "select_the_word",
+            "prompt_bhojpuri": "'फेर भेंटब' खातिर शब्द चुनीं",
+            "media": {},
+            "languages": {
+                "tharu": {
+                    "options": ["नमस्कार", "धन्यवाद", "फेर भेटब", "स्वागत हय"],
+                    "answer": "फेर भेटब"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_5",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "construct_the_phrase",
+            "prompt_bhojpuri": "'तोहार नाम का बा?' खातिर वाक्य बनावीं",
+            "media": {},
+            "languages": {
+                "tharu": {
+                    "word_bank": ["नाम", "का", "हय", "तोहर", "?"],
+                    "answer": "तोहर नाम का हय?"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_6",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "listening_exercise",
+            "prompt_bhojpuri": "सुनीं आ का सुनल उ लिखीं",
+            "media": {
+                "audio": "audio/ham_khushi_hayi.mp3"
+            },
+            "languages": {
+                "tharu": {
+                    "answer": "हम खुशी हयी"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_7",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "fill_in_the_blanks",
+            "prompt_bhojpuri": "खाली जगह भरीं: तोहरा से ___ मिलके बहुत खुशी भइल।",
+            "media": {},
+            "languages": {
+                "tharu": {
+                    "options": ["फेर", "संगे", "पहिला बेर"],
+                    "answer": "फेर"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_8",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "translation_input",
+            "prompt_bhojpuri": "एकरा थारु भाषा में लिखीं",
+            "media": {},
+            "languages": {
+                "bhojpuri": {
+                    "prompt": "शुभ प्रभात"
+                },
+                "tharu": {
+                    "answer": "शुभ बिहान"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_9",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice_image",
+            "prompt_bhojpuri": "कौन चित्र 'हम खुश बानी' के दिखावत बा?",
+            "media": {},
+            "languages": {
+                "tharu": {
+                    "options": [
+                        { "image": "images/happy.png", "text": "हम खुशी हयी" },
+                        { "image": "images/sad.png", "text": "हम दुखी हयी" },
+                        { "image": "images/angry.png", "text": "हम गुस्सा में हयी" }
+                    ],
+                    "answer": "हम खुशी हयी"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_10",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "construct_the_phrase",
+            "prompt_bhojpuri": "'हम नेपाल के बानी' खातिर वाक्य बनावीं",
+            "media": {},
+            "languages": {
+                "tharu": {
+                    "word_bank": ["हम", "नेपाल", "के", "हयी", "।"],
+                    "answer": "हम नेपाल के हयी।"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_11",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "true_or_false",
+            "prompt_bhojpuri": "का 'हम ना समझनी' के अर्थ 'हम नै बुझ पावत' हवे?",
+            "media": {},
+            "languages": {
+                "bhojpuri": {
+                    "meaning": "हम ना समझनी"
+                },
+                "answer": true,
+                "tharu": {
+                    "phrase": "हम नै बुझ पावत"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_12",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "select_the_word",
+            "prompt_bhojpuri": "'माफ करीं' खातिर शब्द चुनीं",
+            "media": {},
+            "languages": {
+                "tharu": {
+                    "options": ["माफ करs", "कृपया", "क्षमा करs", "धन्यवाद"],
+                    "answer": "माफ करs"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_13",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "translation_input",
+            "prompt_bhojpuri": "एकरा थारु भाषा में लिखीं",
+            "media": {},
+            "languages": {
+                "bhojpuri": {
+                    "prompt": "तोहार उमिर कतना बा?"
+                },
+                "tharu": {
+                    "answer": "तोहर उमेर कतना हय?"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_14",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "fill_in_the_blanks",
+            "prompt_bhojpuri": "खाली जगह भरीं: नमस्कार। तू ___ हs?",
+            "media": {},
+            "languages": {
+                "tharu": {
+                    "options": ["कैसन", "का", "ठीक"],
+                    "answer": "कैसन"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_15",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_bhojpuri": "'धनवाद' के जवाब का हवे?",
+            "media": {},
+            "languages": {
+                "tharu": {
+                    "options": [ "नमस्कार", "स्वागत हय", "फेर भेटब" ],
+                    "answer": "स्वागत हय"
+                }
+            }
+        }
+    ]
+} 

@@ -29,6 +29,21 @@ Key Features:
 - 🚀 Deployment on Vercel
 - 📱 Mobile responsiveness
 
+## Language Selection Feature
+
+The application now supports choosing your preferred language for the UI. This setting is stored in your browser's localStorage and will be remembered between visits.
+
+### Features:
+- Select from multiple UI languages (English, Nepali, Bhojpuri, Maithili, etc.)
+- Questions and instructions are displayed in your preferred language
+- Fallback to English when content isn't available in your selected language
+- Language preference is persisted in localStorage
+
+### How to Use:
+1. Change your language from the dropdown in the sidebar
+2. Your preference will be saved automatically
+3. Navigate to "Language Settings" to see an example of how questions will appear in your chosen language
+
 ### Prerequisites
 
 **Node version 14.x**

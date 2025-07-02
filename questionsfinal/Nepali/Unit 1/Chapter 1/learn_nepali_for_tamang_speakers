@@ -1,0 +1,231 @@
+{
+    "lesson_title": "Basic Greetings and Phrases",
+    "questions": [
+        {
+            "concept_id": "people_1",
+            "topic": "People",
+            "question_type": "multiple_choice_image",
+            "prompt_tamang": "च्यामा ङिसे 'पुरुष' ता ङाइमु?",
+            "media": {},
+            "languages": {
+                "nepali": {
+                    "options": [
+                        { "image": "images/man.svg", "text": "पुरुष" },
+                        { "image": "images/woman.svg", "text": "महिला" },
+                        { "image": "images/robot.svg", "text": "रोबोट" }
+                    ],
+                    "answer": "पुरुष"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_1",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_tamang": "च्यामा ङिसे 'नमस्ते' ता ङाइमु?",
+            "media": {},
+            "languages": {
+                "nepali": {
+                    "options": [ "नमस्ते", "धन्यवाद", "फेरि भेटौँला" ],
+                    "answer": "नमस्ते"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_2",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_tamang": "च्यामा ङिसे 'धन्यवाद' ता ङाइमु?",
+            "media": {},
+            "languages": {
+                "nepali": {
+                    "options": [ "नमस्ते", "धन्यवाद", "स्वागत छ" ],
+                    "answer": "धन्यवाद"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_3",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "translation_input",
+            "prompt_tamang": "चुलाई तामाङमा च्यीतो",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "answer": "ङे मिन सञ्जीव ङाइमु"
+                },
+                "nepali": {
+                    "prompt": "मेरो नाम सञ्जीव हो"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_4",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "select_the_word",
+            "prompt_tamang": "'फेरि भेटौँला' ताकी शब्द थोनो",
+            "media": {},
+            "languages": {
+                "nepali": {
+                    "options": ["नमस्ते", "धन्यवाद", "फेरि भेटौँला", "स्वागत छ"],
+                    "answer": "फेरि भेटौँला"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_5",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "construct_the_phrase",
+            "prompt_tamang": "'तपाईंको नाम के हो?' ताकी वाक्य बनानो",
+            "media": {},
+            "languages": {
+                "nepali": {
+                    "word_bank": ["नाम", "के", "हो", "तपाईंको", "?"],
+                    "answer": "तपाईंको नाम के हो?"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_6",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "listening_exercise",
+            "prompt_tamang": "ङ्यानो अनि च्यीतो",
+            "media": {
+                "audio": "audio/ma_khusi_chu.mp3"
+            },
+            "languages": {
+                "nepali": {
+                    "answer": "म खुसी छु"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_7",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "fill_in_the_blanks",
+            "prompt_tamang": "खाली ठाउँ भर्नो: तपाईंलाई ___ भेटेर खुसी लाग्यो।",
+            "media": {},
+            "languages": {
+                "nepali": {
+                    "options": ["फेरि", "सँग", "पहिलो पटक"],
+                    "answer": "फेरि"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_8",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "translation_input",
+            "prompt_tamang": "चुलाई नेपालीमा च्यीतो",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "prompt": "छ्याङबो सेवा"
+                },
+                "nepali": {
+                    "answer": "शुभ बिहानी"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_9",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice_image",
+            "prompt_tamang": "कुन चित्रले 'म खुसी छु' देखाउँछ?",
+            "media": {},
+            "languages": {
+                "nepali": {
+                    "options": [
+                        { "image": "images/happy.png", "text": "म खुसी छु" },
+                        { "image": "images/sad.png", "text": "म दुखी छु" },
+                        { "image": "images/angry.png", "text": "म रिसाएको छु" }
+                    ],
+                    "answer": "म खुसी छु"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_10",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "construct_the_phrase",
+            "prompt_tamang": "'म नेपाल बाट हुँ' ताकी वाक्य बनानो",
+            "media": {},
+            "languages": {
+                "nepali": {
+                    "word_bank": ["म", "नेपाल", "बाट", "हुँ", "।"],
+                    "answer": "म नेपाल बाट हुँ।"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_11",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "true_or_false",
+            "prompt_tamang": "के 'मलाई बुझिएन' को अर्थ 'ङला थेमु आँट' हो?",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "meaning": "ङला थेमु आँट"
+                },
+                "answer": true,
+                "nepali": {
+                    "phrase": "मलाई बुझिएन"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_12",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "select_the_word",
+            "prompt_tamang": "'माफ गर्नुहोस्' ताकी शब्द थोनो",
+            "media": {},
+            "languages": {
+                "nepali": {
+                    "options": ["माफ गर्नुहोस्", "कृपया", "क्षमा गर्नुहोस्", "धन्यवाद"],
+                    "answer": "माफ गर्नुहोस्"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_13",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "translation_input",
+            "prompt_tamang": "चुलाई नेपालीमा च्यीतो",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "prompt": "इ कति लो तमु?"
+                },
+                "nepali": {
+                    "answer": "तपाईंको उमेर कति हो?"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_14",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "fill_in_the_blanks",
+            "prompt_tamang": "खाली ठाउँ भर्नो: नमस्ते। तपाईं ___ हुनुहुन्छ?",
+            "media": {},
+            "languages": {
+                "nepali": {
+                    "options": ["कस्तो", "के", "ठिक"],
+                    "answer": "कस्तो"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_15",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_tamang": "'धन्यवाद' को जवाफ के हो?",
+            "media": {},
+            "languages": {
+                "nepali": {
+                    "options": [ "नमस्ते", "स्वागत छ", "फेरि भेटौँला" ],
+                    "answer": "स्वागत छ"
+                }
+            }
+        }
+    ]
+} 

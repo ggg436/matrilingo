@@ -3,9 +3,11 @@
 import Link from "next/link";
 import { Check, Crown, Star } from "lucide-react";
 import { CircularProgressbarWithChildren } from "react-circular-progressbar";
+import { useEffect, useState } from "react";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { useSiteLanguage } from "@/components/site-language-context";
 
 import "react-circular-progressbar/dist/styles.css";
 
@@ -26,6 +28,21 @@ export const LessonButton = ({
   current,
   percentage
 }: Props) => {
+  const { siteLang } = useSiteLanguage();
+  const [lessonHref, setLessonHref] = useState("");
+
+  useEffect(() => {
+    // When the component mounts or siteLang changes, update the href
+    // For completed lessons, keep the original link, but for current lesson (Start button),
+    // use our language-specific endpoint
+    if (!current) {
+      setLessonHref(locked ? "#" : `/lesson/${id}`);
+    } else {
+      // For the current lesson (Start button), include user's language preference
+      setLessonHref(`/lesson?lang=${siteLang}`);
+    }
+  }, [id, current, locked, siteLang]);
+
   const cycleLength = 8;
   const cycleIndex = index % cycleLength;
 
@@ -49,11 +66,9 @@ export const LessonButton = ({
 
   const Icon = isCompleted ? Check : isLast ? Crown : Star;
 
-  const href = isCompleted ? `/lesson/${id}` : "/lesson";
-
   return (
     <Link 
-      href={href} 
+      href={lessonHref} 
       aria-disabled={locked} 
       style={{ pointerEvents: locked ? "none" : "auto" }}
     >

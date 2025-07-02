@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -10,6 +12,7 @@ import { Loader } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 import { SidebarItem } from "./sidebar-item";
+import { SiteLanguageSelector } from "./site-language-selector";
 
 type Props = {
   className?: string;
@@ -41,17 +44,23 @@ export const Sidebar = ({ className }: Props) => {
           iconSrc="/leaderboard.svg"
         />
         <SidebarItem 
-          label="quests" 
+          label="Quests" 
           href="/quests"
           iconSrc="/quests.svg"
         />
         <SidebarItem 
-          label="shop" 
+          label="Shop" 
           href="/shop"
           iconSrc="/shop.svg"
         />
+        <SidebarItem 
+          label="Language Settings" 
+          href="/language-settings"
+          iconSrc="/settings.svg"
+        />
       </div>
-      <div className="p-4">
+      <div className="p-4 space-y-4">
+        <SiteLanguageSelector />
         <ClerkLoading>
           <Loader className="h-5 w-5 text-muted-foreground animate-spin" />
         </ClerkLoading>

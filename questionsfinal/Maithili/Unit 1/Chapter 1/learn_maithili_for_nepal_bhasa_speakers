@@ -1,0 +1,231 @@
+{
+    "lesson_title": "अभिवादन र मूलभूत वाक्यहरू",
+    "questions": [
+        {
+            "concept_id": "people_1",
+            "topic": "People",
+            "question_type": "multiple_choice_image",
+            "prompt_nepal_bhasa": "थुकिमध्ये 'पुरुष' गुगु खः?",
+            "media": {},
+            "languages": {
+                "maithili": {
+                    "options": [
+                        { "image": "images/man.svg", "text": "आदमी" },
+                        { "image": "images/woman.svg", "text": "स्त्री" },
+                        { "image": "images/robot.svg", "text": "रोबोट" }
+                    ],
+                    "answer": "आदमी"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_1",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepal_bhasa": "थुकिमध्ये 'नमस्ते' गुगु खः?",
+            "media": {},
+            "languages": {
+                "maithili": {
+                    "options": [ "प्रणाम", "धन्यवाद", "फेर भेंट होएत" ],
+                    "answer": "प्रणाम"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_2",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepal_bhasa": "थुकिमध्ये 'धन्यवाद' गुगु खः?",
+            "media": {},
+            "languages": {
+                "maithili": {
+                    "options": [ "प्रणाम", "धन्यवाद", "स्वागत अछि" ],
+                    "answer": "धन्यवाद"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_3",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "translation_input",
+            "prompt_nepal_bhasa": "थ्व मैथिली भाषां च्वया",
+            "media": {},
+            "languages": {
+                "nepal_bhasa": {
+                    "prompt": "जिगु नां संजय खः"
+                },
+                "maithili": {
+                    "answer": "हमर नाम संजय अछि"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_4",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "select_the_word",
+            "prompt_nepal_bhasa": "'लिसः वने' या लागि शब्द ल्यया।",
+            "media": {},
+            "languages": {
+                "maithili": {
+                    "options": ["प्रणाम", "धन्यवाद", "फेर भेंट होएत", "स्वागत अछि"],
+                    "answer": "फेर भेंट होएत"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_5",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "construct_the_phrase",
+            "prompt_nepal_bhasa": "'छिगु नां छु खः?' या लागि वाक्य दयेकी।",
+            "media": {},
+            "languages": {
+                "maithili": {
+                    "word_bank": ["नाम", "की", "अछि", "अहाँक", "?"],
+                    "answer": "अहाँक नाम की अछि?"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_6",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "listening_exercise",
+            "prompt_nepal_bhasa": "न्यना अले छु न्यंगु खः च्वया।",
+            "media": {
+                "audio": "audio/ham_khush_chhi.mp3"
+            },
+            "languages": {
+                "maithili": {
+                    "answer": "हम खुश छी"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_7",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "fill_in_the_blanks",
+            "prompt_nepal_bhasa": "खाली थासय् भरे या: अहाँ सँ ___ भेट कए बहुत खुशी भेल।",
+            "media": {},
+            "languages": {
+                "maithili": {
+                    "options": ["फेर", "संग", "पहिल बेर"],
+                    "answer": "फेर"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_8",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "translation_input",
+            "prompt_nepal_bhasa": "थ्व मैथिली भाषां च्वया",
+            "media": {},
+            "languages": {
+                "nepal_bhasa": {
+                    "prompt": "सुभाय् सकाल"
+                },
+                "maithili": {
+                    "answer": "शुभ प्रभात"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_9",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice_image",
+            "prompt_nepal_bhasa": "गुगु तस्वीरं 'जि लय् जुल' याइ?",
+            "media": {},
+            "languages": {
+                "maithili": {
+                    "options": [
+                        { "image": "images/happy.png", "text": "हम खुश छी" },
+                        { "image": "images/sad.png", "text": "हम दुखी छी" },
+                        { "image": "images/angry.png", "text": "हम क्रोधित छी" }
+                    ],
+                    "answer": "हम खुश छी"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_10",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "construct_the_phrase",
+            "prompt_nepal_bhasa": "'जि नेपालं खः।' या लागि वाक्य दयेकी।",
+            "media": {},
+            "languages": {
+                "maithili": {
+                    "word_bank": ["हम", "नेपाल", "सँ", "छी", "।"],
+                    "answer": "हम नेपाल सँ छी।"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_11",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "true_or_false",
+            "prompt_nepal_bhasa": "छु 'जिं मथू' यागु अर्थ 'हम नहि बुझलहुँ' जुइ?",
+            "media": {},
+            "languages": {
+                "nepal_bhasa": {
+                    "meaning": "जिं मथू"
+                },
+                "answer": true,
+                "maithili": {
+                    "phrase": "हम नहि बुझलहुँ"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_12",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "select_the_word",
+            "prompt_nepal_bhasa": "'क्षमा यानादिसँ' या लागि शब्द ल्यया।",
+            "media": {},
+            "languages": {
+                "maithili": {
+                    "options": ["क्षमा करू", "कृपया", "माफ करू", "धन्यवाद"],
+                    "answer": "क्षमा करू"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_13",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "translation_input",
+            "prompt_nepal_bhasa": "थ्व मैथिली भाषां च्वया",
+            "media": {},
+            "languages": {
+                "nepal_bhasa": {
+                    "prompt": "छिगु उमर गुलि जुल?"
+                },
+                "maithili": {
+                    "answer": "अहाँक उमेर कतेक अछि?"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_14",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "fill_in_the_blanks",
+            "prompt_nepal_bhasa": "खाली थासय् भरे या: प्रणाम। अहाँ ___ छी?",
+            "media": {},
+            "languages": {
+                "maithili": {
+                    "options": ["कोना", "की", "ठीक"],
+                    "answer": "कोना"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_15",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepal_bhasa": "'सुभाय्' या लिसः छु जुई?",
+            "media": {},
+            "languages": {
+                "maithili": {
+                    "options": [ "प्रणाम", "स्वागत अछि", "फेर भेंट होएत" ],
+                    "answer": "स्वागत अछि"
+                }
+            }
+        }
+    ]
+} 

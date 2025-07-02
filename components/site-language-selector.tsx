@@ -1,3 +1,5 @@
+"use client";
+
 import { LANGUAGES, useSiteLanguage } from "@/components/site-language-context";
 
 export const SiteLanguageSelector = () => {

@@ -1,0 +1,231 @@
+{
+    "lesson_title": "अभिवादन र आधारभूत वाक्यहरू",
+    "questions": [
+        {
+            "concept_id": "people_1",
+            "topic": "People",
+            "question_type": "multiple_choice_image",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'पुरुष' हो?",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": [
+                        { "image": "images/man.svg", "text": "म्ही" },
+                        { "image": "images/woman.svg", "text": "मिमी" },
+                        { "image": "images/robot.svg", "text": "रोबोट" }
+                    ],
+                    "answer": "म्ही"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_1",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'नमस्ते' हो?",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": [ "सेवा", "धन्यवाद", "जुजु" ],
+                    "answer": "सेवा"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_2",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'धन्यवाद' हो?",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": [ "सेवा", "धन्यवाद", "जुजु" ],
+                    "answer": "धन्यवाद"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_3",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "translation_input",
+            "prompt_nepali": "यसलाई तामाङ भाषामा लेख्नुहोस्",
+            "media": {},
+            "languages": {
+                "nepali": {
+                    "prompt": "मेरो नाम दोर्जे हो"
+                },
+                "tamang": {
+                    "answer": "ङे मिन दोर्जे ङाइमु"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_4",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "select_the_word",
+            "prompt_nepali": "'फेरि भेटौंला' को लागि शब्द चयन गर्नुहोस्।",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": ["सेवा", "धन्यवाद", "जुजु", "लिस्सो"],
+                    "answer": "जुजु"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_5",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "construct_the_phrase",
+            "prompt_nepali": "'तपाईंको नाम के हो?' को लागि वाक्य बनाउनुहोस्।",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "word_bank": ["इ", "मिन", "ता", "ङाइमु", "?"],
+                    "answer": "इ मिन ता ङाइमु?"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_6",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "listening_exercise",
+            "prompt_nepali": "सुन्नुहोस् र के सुन्नुभयो त्यो लेख्नुहोस्।",
+            "media": {
+                "audio": "audio/nga_gyamu.mp3"
+            },
+            "languages": {
+                "tamang": {
+                    "answer": "ङ ग्यामु"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_7",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "fill_in_the_blanks",
+            "prompt_nepali": "खाली ठाउँ भर्नुहोस्: इ नोङला ___ तोङ्बा ङाला।",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": ["अनि", "दिक्की", "तेन्दो"],
+                    "answer": "अनि"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_8",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "translation_input",
+            "prompt_nepali": "यसलाई तामाङ भाषामा लेख्नुहोस्",
+            "media": {},
+            "languages": {
+                "nepali": {
+                    "prompt": "शुभ बिहानी"
+                },
+                "tamang": {
+                    "answer": "छ्याङबो सेवा"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_9",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice_image",
+            "prompt_nepali": "कुन चित्रले 'म खुशी छु' जनाउँछ?",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": [
+                        { "image": "images/happy.png", "text": "ङ ग्यामु" },
+                        { "image": "images/sad.png", "text": "ङ दुखी मु" },
+                        { "image": "images/angry.png", "text": "ङ छुर्किमु" }
+                    ],
+                    "answer": "ङ ग्यामु"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_10",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "construct_the_phrase",
+            "prompt_nepali": "'म नेपालबाट हुँ।' को लागि वाक्य बनाउनुहोस्।",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "word_bank": ["ङ", "नेपाल", "ङिसे", "खमु", "।"],
+                    "answer": "ङ नेपाल ङिसे खमु।"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_11",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "true_or_false",
+            "prompt_nepali": "के 'मैले बुझिन' को अर्थ 'ङला थेमु आँट' हो?",
+            "media": {},
+            "languages": {
+                "nepali": {
+                    "meaning": "मैले बुझिन"
+                },
+                "answer": true,
+                "tamang": {
+                    "phrase": "ङला थेमु आँट"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_12",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "select_the_word",
+            "prompt_nepali": "'माफ गर्नुहोस्' को लागि शब्द चयन गर्नुहोस्।",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": ["ङला माफ लाबा", "कृपया", "क्षमा लाबा", "धन्यवाद"],
+                    "answer": "ङला माफ लाबा"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_13",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "translation_input",
+            "prompt_nepali": "यसलाई तामाङ भाषामा लेख्नुहोस्",
+            "media": {},
+            "languages": {
+                "nepali": {
+                    "prompt": "तपाईंको उमेर कति भयो?"
+                },
+                "tamang": {
+                    "answer": "इ कति लो तमु?"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_14",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "fill_in_the_blanks",
+            "prompt_nepali": "खाली ठाउँ भर्नुहोस्: सेवा। इ ___ मु?",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": ["खोसो", "ता", "ठिक"],
+                    "answer": "खोसो"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_and_basic_phrases_15",
+            "topic": "Greetings and Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "'धन्यवाद' को जवाफ के हो?",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": [ "सेवा", "लिस्सो", "जुजु" ],
+                    "answer": "लिस्सो"
+                }
+            }
+        }
+    ]
+} 
