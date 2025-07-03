@@ -2,8 +2,102 @@
     "lesson_title": "अभिवादन र आधारभूत वाक्यहरू",
     "questions": [
         {
-            "concept_id": "people_1",
-            "topic": "People",
+            "concept_id": "basic_identification_1",
+            "topic": "Basic Identification",
+            "question_type": "multiple_choice_image",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'पुरुष' हो?",
+            "media": {},
+            "languages": {
+                "nepal_bhasa": {
+                    "options": [
+                        {
+                            "image": "/man.svg",
+                            "text": "मिजं"
+                        },
+                        {
+                            "image": "/woman.svg",
+                            "text": "मिसा"
+                        },
+                        {
+                            "image": "/robot.svg",
+                            "text": "रोबोट"
+                        }
+                    ],
+                    "answer": "मिजं"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_1",
+            "topic": "Greetings",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'नमस्कार' हो?",
+            "media": {},
+            "languages": {
+                "nepal_bhasa": {
+                    "options": [
+                        "ज्वजलपा",
+                        "सुभाय्",
+                        "लसकुस"
+                    ],
+                    "answer": "ज्वजलपा"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_2",
+            "topic": "Greetings",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'धन्यवाद' हो?",
+            "media": {},
+            "languages": {
+                "nepal_bhasa": {
+                    "options": [
+                        "सुभाय्",
+                        "ज्वजलपा",
+                        "क्षमा"
+                    ],
+                    "answer": "सुभाय्"
+                }
+            }
+        },
+        {
+            "concept_id": "basic_phrases_1",
+            "topic": "Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'मेरो नाम' हो?",
+            "media": {},
+            "languages": {
+                "nepal_bhasa": {
+                    "options": [
+                        "जिगु नां",
+                        "छिगु नां",
+                        "वयागु नां"
+                    ],
+                    "answer": "जिगु नां"
+                }
+            }
+        },
+        {
+            "concept_id": "basic_phrases_2",
+            "topic": "Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'तिम्रो नाम के हो?' हो?",
+            "media": {},
+            "languages": {
+                "nepal_bhasa": {
+                    "options": [
+                        "छिगु नां छु?",
+                        "जिगु नां छु?",
+                        "वयागु नां छु?"
+                    ],
+                    "answer": "छिगु नां छु?"
+                }
+            }
+        },
+        {
+            "concept_id": "basic_phrases_3",
+            "topic": "Basic Phrases",
             "question_type": "multiple_choice_image",
             "prompt_nepali": "यी मध्ये कुन चाहिँ 'पुरुष' हो?",
             "media": {},
@@ -12,271 +106,104 @@
                     "options": [
                         {
                             "image": "images/man.svg",
-                            "text": "मनु"
+                            "text": "मिजं"
                         },
                         {
                             "image": "images/woman.svg",
                             "text": "मिसा"
                         },
                         {
-                            "image": "images/robot.svg",
-                            "text": "रोबोट"
+                            "image": "images/child.svg",
+                            "text": "मचा"
                         }
                     ],
-                    "answer": "मनु"
+                    "answer": "मिजं"
                 }
             }
         },
         {
-            "concept_id": "greetings_and_basic_phrases_1",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "multiple_choice",
-            "prompt_nepali": "यी मध्ये कुन चाहिँ 'नमस्ते' हो?",
-            "media": {},
-            "languages": {
-                "nepal_bhasa": {
-                    "options": [
-                        "ज्वजलपा",
-                        "सुभाय्",
-                        "लिसः वने"
-                    ],
-                    "answer": "ज्वजलपा"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_2",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "multiple_choice",
-            "prompt_nepali": "यी मध्ये कुन चाहिँ 'धन्यवाद' हो?",
-            "media": {},
-            "languages": {
-                "nepal_bhasa": {
-                    "options": [
-                        "ज्वजलपा",
-                        "सुभाय्",
-                        "लसकुस"
-                    ],
-                    "answer": "सुभाय्"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_3",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "translation_input",
-            "prompt_nepali": "यसलाई Nepal Bhasa भाषामा लेख्नुहोस्",
-            "media": {},
-            "languages": {
-                "nepali": {
-                    "prompt": "मेरो नाम राम हो"
-                },
-                "nepal_bhasa": {
-                    "answer": "जिगु नां राम खः"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_4",
-            "topic": "Greetings and Basic Phrases",
+            "concept_id": "basic_phrases_4",
+            "topic": "Basic Phrases",
             "question_type": "select_the_word",
-            "prompt_nepali": "'बिदा' को लागि शब्द चयन गर्नुहोस्।",
+            "prompt_nepali": "'म नेपाली हुँ' को लागि शब्द चयन गर्नुहोस्।",
             "media": {},
             "languages": {
                 "nepal_bhasa": {
                     "options": [
-                        "ज्वजलपा",
-                        "सुभाय्",
-                        "लिसः वने",
-                        "लसकुस"
+                        "जि नेपाली खः",
+                        "छि नेपाली खः",
+                        "वः नेपाली खः",
+                        "जिमि नेपाली खः"
                     ],
-                    "answer": "लिसः वने"
+                    "answer": "जि नेपाली खः"
                 }
             }
         },
         {
-            "concept_id": "greetings_and_basic_phrases_5",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "construct_the_phrase",
-            "prompt_nepali": "'तिम्रो नाम के हो?' को लागि वाक्य बनाउनुहोस्।",
-            "media": {},
-            "languages": {
-                "nepal_bhasa": {
-                    "word_bank": [
-                        "छिगु",
-                        "नां",
-                        "छु",
-                        "खः",
-                        "?"
-                    ],
-                    "answer": "छिगु नां छु खः?"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_6",
-            "topic": "Greetings and Basic Phrases",
+            "concept_id": "basic_phrases_5",
+            "topic": "Basic Phrases",
             "question_type": "multiple_choice",
-            "prompt_nepali": "'म खुशी छु' को अनुवाद के हो?",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'शुभ प्रभात' हो?",
             "media": {},
             "languages": {
                 "nepal_bhasa": {
                     "options": [
-                        "जि लय् जुल",
-                        "जि नुगः मछिं",
-                        "जि तं वल"
+                        "सुथ्य् बलेसा",
+                        "बाझी बलेसा",
+                        "सुन्हु बलेसा"
                     ],
-                    "answer": "जि लय् जुल"
+                    "answer": "सुथ्य् बलेसा"
                 }
             }
         },
         {
-            "concept_id": "greetings_and_basic_phrases_7",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "fill_in_the_blanks",
-            "prompt_nepali": "खाली स्थान भर्नुहोस्: छितः ___ तसकं लय् जुल।",
-            "media": {},
-            "languages": {
-                "nepal_bhasa": {
-                    "options": [
-                        "नापलाःगु",
-                        "नाप",
-                        "नापं"
-                    ],
-                    "answer": "नापलाःगु"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_8",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "translation_input",
-            "prompt_nepali": "यसलाई Nepal Bhasa भाषामा लेख्नुहोस्",
-            "media": {},
-            "languages": {
-                "nepali": {
-                    "prompt": "शुभ बिहानी"
-                },
-                "nepal_bhasa": {
-                    "answer": "सुभाय् सकाल"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_9",
-            "topic": "Greetings and Basic Phrases",
+            "concept_id": "basic_phrases_6",
+            "topic": "Basic Phrases",
             "question_type": "multiple_choice",
-            "prompt_nepali": "यी मध्ये कुन चाहिँ 'स्वागत छ' हो?",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'तपाईंलाई भेटेर खुशी लाग्यो' हो?",
             "media": {},
             "languages": {
                 "nepal_bhasa": {
                     "options": [
-                        "ज्वजलपा",
-                        "लसकुस",
-                        "लिसः वने"
+                        "छितः नापं नापलाना लय् ताल",
+                        "जि लय् ताः",
+                        "छि गथे दु?"
                     ],
-                    "answer": "लसकुस"
+                    "answer": "छितः नापं नापलाना लय् ताल"
                 }
             }
         },
         {
-            "concept_id": "greetings_and_basic_phrases_10",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "construct_the_phrase",
-            "prompt_nepali": "'म नेपालबाट हुँ' को लागि वाक्य बनाउनुहोस्।",
+            "concept_id": "basic_phrases_7",
+            "topic": "Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'म राम्रो छु' हो?",
             "media": {},
             "languages": {
                 "nepal_bhasa": {
-                    "word_bank": [
-                        "जि",
-                        "नेपालं",
-                        "खः",
-                        "।"
+                    "options": [
+                        "जि बांलाः दु",
+                        "छि गथे दु?",
+                        "वः गथे दु?"
                     ],
-                    "answer": "जि नेपालं खः।"
+                    "answer": "जि बांलाः दु"
                 }
             }
         },
         {
-            "concept_id": "greetings_and_basic_phrases_11",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "true_or_false",
-            "prompt_nepali": "के 'जिं मथू' को अर्थ 'मैले बुझिन' हो?",
-            "media": {},
-            "languages": {
-                "nepali": {
-                    "meaning": "मैले बुझिन"
-                },
-                "answer": true,
-                "nepal_bhasa": {
-                    "phrase": "जिं मथू"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_12",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "select_the_word",
-            "prompt_nepali": "'माफ गर्नुहोस्' को लागि शब्द चयन गर्नुहोस्।",
+            "concept_id": "basic_phrases_8",
+            "topic": "Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'माफ गर्नुहोस्' हो?",
             "media": {},
             "languages": {
                 "nepal_bhasa": {
                     "options": [
                         "क्षमा यानादिसँ",
-                        "दयायानादिसँ",
-                        "क्षमा",
-                        "सुभाय्"
+                        "सुभाय्",
+                        "ज्वजलपा"
                     ],
                     "answer": "क्षमा यानादिसँ"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_13",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "translation_input",
-            "prompt_nepali": "यसलाई Nepal Bhasa भाषामा लेख्नुहोस्",
-            "media": {},
-            "languages": {
-                "nepali": {
-                    "prompt": "तपाईंको उमेर कति भयो?"
-                },
-                "nepal_bhasa": {
-                    "answer": "छिगु उमर गुलि जुल?"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_14",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "fill_in_the_blanks",
-            "prompt_nepali": "खाली स्थान भर्नुहोस्: ज्वजलपा। छी ___ दुला?",
-            "media": {},
-            "languages": {
-                "nepal_bhasa": {
-                    "options": [
-                        "बांलाः",
-                        "छु",
-                        "बिमार"
-                    ],
-                    "answer": "बांलाः"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_15",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "multiple_choice",
-            "prompt_nepali": "'सुभाय्' (धन्यवाद) को जवाफ के हो?",
-            "media": {},
-            "languages": {
-                "nepal_bhasa": {
-                    "options": [
-                        "ज्वजलपा",
-                        "लसकुस",
-                        "लिसः वने"
-                    ],
-                    "answer": "लसकुस"
                 }
             }
         }

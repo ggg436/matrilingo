@@ -2,8 +2,76 @@
     "lesson_title": "अभिवादन र आधारभूत वाक्यहरू",
     "questions": [
         {
-            "concept_id": "people_1",
-            "topic": "People",
+            "concept_id": "greetings_1",
+            "topic": "Greetings",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'नमस्कार' हो?",
+            "media": {},
+            "languages": {
+                "maithili": {
+                    "options": [
+                        "प्रणाम",
+                        "धन्यवाद",
+                        "फेर भेटब"
+                    ],
+                    "answer": "प्रणाम"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_2",
+            "topic": "Greetings",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'धन्यवाद' हो?",
+            "media": {},
+            "languages": {
+                "maithili": {
+                    "options": [
+                        "धन्यवाद",
+                        "प्रणाम",
+                        "क्षमा करू"
+                    ],
+                    "answer": "धन्यवाद"
+                }
+            }
+        },
+        {
+            "concept_id": "basic_phrases_1",
+            "topic": "Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'मेरो नाम' हो?",
+            "media": {},
+            "languages": {
+                "maithili": {
+                    "options": [
+                        "हमर नाम",
+                        "अहाँक नाम",
+                        "हुनकर नाम"
+                    ],
+                    "answer": "हमर नाम"
+                }
+            }
+        },
+        {
+            "concept_id": "basic_phrases_2",
+            "topic": "Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'तिम्रो नाम के हो?' हो?",
+            "media": {},
+            "languages": {
+                "maithili": {
+                    "options": [
+                        "अहाँक नाम की अछि?",
+                        "हमर नाम की अछि?",
+                        "हुनकर नाम की अछि?"
+                    ],
+                    "answer": "अहाँक नाम की अछि?"
+                }
+            }
+        },
+        {
+            "concept_id": "basic_phrases_3",
+            "topic": "Basic Phrases",
             "question_type": "multiple_choice_image",
             "prompt_nepali": "यी मध्ये कुन चाहिँ 'पुरुष' हो?",
             "media": {},
@@ -16,11 +84,11 @@
                         },
                         {
                             "image": "images/woman.svg",
-                            "text": "स्त्री"
+                            "text": "महिला"
                         },
                         {
-                            "image": "images/robot.svg",
-                            "text": "रोबोट"
+                            "image": "images/child.svg",
+                            "text": "बच्चा"
                         }
                     ],
                     "answer": "पुरुष"
@@ -28,256 +96,88 @@
             }
         },
         {
-            "concept_id": "greetings_and_basic_phrases_1",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "multiple_choice",
-            "prompt_nepali": "यी मध्ये कुन चाहिँ 'नमस्ते' हो?",
-            "media": {},
-            "languages": {
-                "maithili": {
-                    "options": [
-                        "प्रणाम",
-                        "धन्यवाद",
-                        "प्रणाम"
-                    ],
-                    "answer": "प्रणाम"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_2",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "multiple_choice",
-            "prompt_nepali": "यी मध्ये कुन चाहिँ 'धन्यवाद' हो?",
-            "media": {},
-            "languages": {
-                "maithili": {
-                    "options": [
-                        "प्रणाम",
-                        "धन्यवाद",
-                        "स्वागतम्"
-                    ],
-                    "answer": "धन्यवाद"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_3",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "translation_input",
-            "prompt_nepali": "यसलाई Maithili भाषामा लेख्नुहोस्",
-            "media": {},
-            "languages": {
-                "nepali": {
-                    "prompt": "मेरो नाम राम हो"
-                },
-                "maithili": {
-                    "answer": "हमर नाम राम अछि"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_4",
-            "topic": "Greetings and Basic Phrases",
+            "concept_id": "basic_phrases_4",
+            "topic": "Basic Phrases",
             "question_type": "select_the_word",
-            "prompt_nepali": "'बिदा' को लागि शब्द चयन गर्नुहोस्।",
+            "prompt_nepali": "'म नेपाली हुँ' को लागि शब्द चयन गर्नुहोस्।",
             "media": {},
             "languages": {
                 "maithili": {
                     "options": [
-                        "प्रणाम",
-                        "धन्यवाद",
-                        "प्रणाम",
-                        "स्वागतम्"
+                        "हम नेपाली छी",
+                        "अहाँ नेपाली छी",
+                        "ओ नेपाली छथि",
+                        "हम सभ नेपाली छी"
                     ],
-                    "answer": "प्रणाम"
+                    "answer": "हम नेपाली छी"
                 }
             }
         },
         {
-            "concept_id": "greetings_and_basic_phrases_5",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "construct_the_phrase",
-            "prompt_nepali": "'तिम्रो नाम के हो?' को लागि वाक्य बनाउनुहोस्।",
-            "media": {},
-            "languages": {
-                "maithili": {
-                    "word_bank": [
-                        "अहाँक",
-                        "नाम",
-                        "की",
-                        "अछि",
-                        "?"
-                    ],
-                    "answer": "अहाँक नाम की अछि?"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_6",
-            "topic": "Greetings and Basic Phrases",
+            "concept_id": "basic_phrases_5",
+            "topic": "Basic Phrases",
             "question_type": "multiple_choice",
-            "prompt_nepali": "'म खुशी छु' को अनुवाद के हो?",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'शुभ प्रभात' हो?",
             "media": {},
             "languages": {
                 "maithili": {
                     "options": [
-                        "हम प्रसन्न छी",
-                        "हम दुखित छी",
-                        "हम क्रोधित छी"
+                        "शुभ प्रभात",
+                        "शुभ रात्रि",
+                        "शुभ संध्या"
                     ],
-                    "answer": "हम प्रसन्न छी"
+                    "answer": "शुभ प्रभात"
                 }
             }
         },
         {
-            "concept_id": "greetings_and_basic_phrases_7",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "fill_in_the_blanks",
-            "prompt_nepali": "खाली स्थान भर्नुहोस्: अहाँकेँ ___ भेटल।",
-            "media": {},
-            "languages": {
-                "maithili": {
-                    "options": [
-                        "भेटिकए",
-                        "देखिकए",
-                        "सुनिकए"
-                    ],
-                    "answer": "भेटिकए"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_8",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "translation_input",
-            "prompt_nepali": "यसलाई Maithili भाषामा लेख्नुहोस्",
-            "media": {},
-            "languages": {
-                "nepali": {
-                    "prompt": "शुभ बिहानी"
-                },
-                "maithili": {
-                    "answer": "सुप्रभात"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_9",
-            "topic": "Greetings and Basic Phrases",
+            "concept_id": "basic_phrases_6",
+            "topic": "Basic Phrases",
             "question_type": "multiple_choice",
-            "prompt_nepali": "यी मध्ये कुन चाहिँ 'स्वागत छ' हो?",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'तपाईंलाई भेटेर खुशी लाग्यो' हो?",
             "media": {},
             "languages": {
                 "maithili": {
                     "options": [
-                        "प्रणाम",
-                        "स्वागतम्",
-                        "प्रणाम"
+                        "अहाँसँ भेट कए प्रसन्नता भेल",
+                        "हमरा खुशी अछि",
+                        "अहाँ केहन छी?"
                     ],
-                    "answer": "स्वागतम्"
+                    "answer": "अहाँसँ भेट कए प्रसन्नता भेल"
                 }
             }
         },
         {
-            "concept_id": "greetings_and_basic_phrases_10",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "construct_the_phrase",
-            "prompt_nepali": "'म नेपालबाट हुँ' को लागि वाक्य बनाउनुहोस्।",
+            "concept_id": "basic_phrases_7",
+            "topic": "Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'म राम्रो छु' हो?",
             "media": {},
             "languages": {
                 "maithili": {
-                    "word_bank": [
-                        "हम",
-                        "नेपाल",
-                        "सँ",
-                        "छी",
-                        "।"
+                    "options": [
+                        "हम नीक छी",
+                        "अहाँ केहन छी?",
+                        "ओ केहन छथि?"
                     ],
-                    "answer": "हम नेपाल सँ छी।"
+                    "answer": "हम नीक छी"
                 }
             }
         },
         {
-            "concept_id": "greetings_and_basic_phrases_11",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "true_or_false",
-            "prompt_nepali": "के 'हम नहि बुझलहुँ' को अर्थ 'मैले बुझिन' हो?",
-            "media": {},
-            "languages": {
-                "nepali": {
-                    "meaning": "मैले बुझिन"
-                },
-                "answer": true,
-                "maithili": {
-                    "phrase": "हम नहि बुझलहुँ"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_12",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "select_the_word",
-            "prompt_nepali": "'माफ गर्नुहोस्' को लागि शब्द चयन गर्नुहोस्।",
+            "concept_id": "basic_phrases_8",
+            "topic": "Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'माफ गर्नुहोस्' हो?",
             "media": {},
             "languages": {
                 "maithili": {
                     "options": [
                         "क्षमा करू",
-                        "कृपया",
-                        "माफी",
-                        "धन्यवाद"
-                    ],
-                    "answer": "क्षमा करू"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_13",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "translation_input",
-            "prompt_nepali": "यसलाई Maithili भाषामा लेख्नुहोस्",
-            "media": {},
-            "languages": {
-                "nepali": {
-                    "prompt": "तपाईंको उमेर कति भयो?"
-                },
-                "maithili": {
-                    "answer": "अहाँक उमेर कतेक अछि?"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_14",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "fill_in_the_blanks",
-            "prompt_nepali": "खाली स्थान भर्नुहोस्: प्रणाम, अहाँ ___ छी?",
-            "media": {},
-            "languages": {
-                "maithili": {
-                    "options": [
-                        "केहन",
-                        "कतय",
-                        "किएक"
-                    ],
-                    "answer": "केहन"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_15",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "multiple_choice",
-            "prompt_nepali": "'धन्यवाद' (धन्यवाद) को जवाफ के हो?",
-            "media": {},
-            "languages": {
-                "maithili": {
-                    "options": [
-                        "प्रणाम",
-                        "स्वागतम्",
+                        "धन्यवाद",
                         "प्रणाम"
                     ],
-                    "answer": "स्वागतम्"
+                    "answer": "क्षमा करू"
                 }
             }
         }

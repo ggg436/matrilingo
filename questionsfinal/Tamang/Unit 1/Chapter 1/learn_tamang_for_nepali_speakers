@@ -2,8 +2,76 @@
     "lesson_title": "अभिवादन र आधारभूत वाक्यहरू",
     "questions": [
         {
-            "concept_id": "people_1",
-            "topic": "People",
+            "concept_id": "greetings_1",
+            "topic": "Greetings",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'नमस्कार' हो?",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": [
+                        "सेवा",
+                        "धन्यवाद",
+                        "जोजो"
+                    ],
+                    "answer": "सेवा"
+                }
+            }
+        },
+        {
+            "concept_id": "greetings_2",
+            "topic": "Greetings",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'धन्यवाद' हो?",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": [
+                        "धन्यवाद",
+                        "सेवा",
+                        "क्षमा याङ"
+                    ],
+                    "answer": "धन्यवाद"
+                }
+            }
+        },
+        {
+            "concept_id": "basic_phrases_1",
+            "topic": "Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'मेरो नाम' हो?",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": [
+                        "ङे मिङ",
+                        "इमिङ",
+                        "थेमिङ"
+                    ],
+                    "answer": "ङे मिङ"
+                }
+            }
+        },
+        {
+            "concept_id": "basic_phrases_2",
+            "topic": "Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'तिम्रो नाम के हो?' हो?",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": [
+                        "इमिङ ता चिम?",
+                        "ङे मिङ ता चिम?",
+                        "थेमिङ ता चिम?"
+                    ],
+                    "answer": "इमिङ ता चिम?"
+                }
+            }
+        },
+        {
+            "concept_id": "basic_phrases_3",
+            "topic": "Basic Phrases",
             "question_type": "multiple_choice_image",
             "prompt_nepali": "यी मध्ये कुन चाहिँ 'पुरुष' हो?",
             "media": {},
@@ -12,272 +80,104 @@
                     "options": [
                         {
                             "image": "images/man.svg",
-                            "text": "म्यार्"
+                            "text": "मि"
                         },
                         {
                             "image": "images/woman.svg",
-                            "text": "मीम्वाई"
+                            "text": "मिरिम"
                         },
                         {
-                            "image": "images/robot.svg",
-                            "text": "रोबोट"
+                            "image": "images/child.svg",
+                            "text": "कोला"
                         }
                     ],
-                    "answer": "म्यार्"
+                    "answer": "मि"
                 }
             }
         },
         {
-            "concept_id": "greetings_and_basic_phrases_1",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "multiple_choice",
-            "prompt_nepali": "यी मध्ये कुन चाहिँ 'नमस्ते' हो?",
-            "media": {},
-            "languages": {
-                "tamang": {
-                    "options": [
-                        "लास्सो",
-                        "थुस्सी",
-                        "जो या"
-                    ],
-                    "answer": "लास्सो"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_2",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "multiple_choice",
-            "prompt_nepali": "यी मध्ये कुन चाहिँ 'धन्यवाद' हो?",
-            "media": {},
-            "languages": {
-                "tamang": {
-                    "options": [
-                        "लास्सो",
-                        "थुस्सी",
-                        "गोजो फैय"
-                    ],
-                    "answer": "थुस्सी"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_3",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "translation_input",
-            "prompt_nepali": "यसलाई Tamang भाषामा लेख्नुहोस्",
-            "media": {},
-            "languages": {
-                "nepali": {
-                    "prompt": "मेरो नाम राम हो"
-                },
-                "tamang": {
-                    "answer": "ङा मिन राम ङा रे"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_4",
-            "topic": "Greetings and Basic Phrases",
+            "concept_id": "basic_phrases_4",
+            "topic": "Basic Phrases",
             "question_type": "select_the_word",
-            "prompt_nepali": "'बिदा' को लागि शब्द चयन गर्नुहोस्।",
+            "prompt_nepali": "'म नेपाली हुँ' को लागि शब्द चयन गर्नुहोस्।",
             "media": {},
             "languages": {
                 "tamang": {
                     "options": [
-                        "लास्सो",
-                        "थुस्सी",
-                        "जो या",
-                        "गोजो फैय"
+                        "ङ नेपाली ङा",
+                        "इ नेपाली ङा",
+                        "थे नेपाली ङा",
+                        "ङनि नेपाली ङा"
                     ],
-                    "answer": "जो या"
+                    "answer": "ङ नेपाली ङा"
                 }
             }
         },
         {
-            "concept_id": "greetings_and_basic_phrases_5",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "construct_the_phrase",
-            "prompt_nepali": "'तिम्रो नाम के हो?' को लागि वाक्य बनाउनुहोस्।",
-            "media": {},
-            "languages": {
-                "tamang": {
-                    "word_bank": [
-                        "नोः",
-                        "मिन",
-                        "तोङ",
-                        "रे",
-                        "?"
-                    ],
-                    "answer": "नोः मिन तोङ रे?"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_6",
-            "topic": "Greetings and Basic Phrases",
+            "concept_id": "basic_phrases_5",
+            "topic": "Basic Phrases",
             "question_type": "multiple_choice",
-            "prompt_nepali": "'म खुशी छु' को अनुवाद के हो?",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'शुभ प्रभात' हो?",
             "media": {},
             "languages": {
                 "tamang": {
                     "options": [
-                        "ङा ग्याम्सी रे",
-                        "ङा किम्सी रे",
-                        "ङा छ्यार्सी रे"
+                        "सोइम्ला",
+                        "तिम्ला",
+                        "नुहिम्ला"
                     ],
-                    "answer": "ङा ग्याम्सी रे"
+                    "answer": "सोइम्ला"
                 }
             }
         },
         {
-            "concept_id": "greetings_and_basic_phrases_7",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "fill_in_the_blanks",
-            "prompt_nepali": "खाली स्थान भर्नुहोस्: नोङ ___ थेत।",
-            "media": {},
-            "languages": {
-                "tamang": {
-                    "options": [
-                        "ताम्",
-                        "थोङ",
-                        "थेत"
-                    ],
-                    "answer": "थेत"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_8",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "translation_input",
-            "prompt_nepali": "यसलाई Tamang भाषामा लेख्नुहोस्",
-            "media": {},
-            "languages": {
-                "nepali": {
-                    "prompt": "शुभ बिहानी"
-                },
-                "tamang": {
-                    "answer": "लोः सी"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_9",
-            "topic": "Greetings and Basic Phrases",
+            "concept_id": "basic_phrases_6",
+            "topic": "Basic Phrases",
             "question_type": "multiple_choice",
-            "prompt_nepali": "यी मध्ये कुन चाहिँ 'स्वागत छ' हो?",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'तपाईंलाई भेटेर खुशी लाग्यो' हो?",
             "media": {},
             "languages": {
                 "tamang": {
                     "options": [
-                        "लास्सो",
-                        "गोजो फैय",
-                        "जो या"
+                        "इदा थोङसि सेम ग्याम्सिङ",
+                        "ङ सेम ग्याम्सिङ",
+                        "इ खाले मु?"
                     ],
-                    "answer": "गोजो फैय"
+                    "answer": "इदा थोङसि सेम ग्याम्सिङ"
                 }
             }
         },
         {
-            "concept_id": "greetings_and_basic_phrases_10",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "construct_the_phrase",
-            "prompt_nepali": "'म नेपालबाट हुँ' को लागि वाक्य बनाउनुहोस्।",
-            "media": {},
-            "languages": {
-                "tamang": {
-                    "word_bank": [
-                        "ङा",
-                        "नेपाल",
-                        "दे",
-                        "रे",
-                        "।"
-                    ],
-                    "answer": "ङा नेपाल दे रे।"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_11",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "true_or_false",
-            "prompt_nepali": "के 'ङा मोघा' को अर्थ 'मैले बुझिन' हो?",
-            "media": {},
-            "languages": {
-                "nepali": {
-                    "meaning": "मैले बुझिन"
-                },
-                "answer": true,
-                "tamang": {
-                    "phrase": "ङा मोघा"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_12",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "select_the_word",
-            "prompt_nepali": "'माफ गर्नुहोस्' को लागि शब्द चयन गर्नुहोस्।",
-            "media": {},
-            "languages": {
-                "tamang": {
-                    "options": [
-                        "मारी फो",
-                        "प्लीज",
-                        "क्षमा या",
-                        "थुस्सी"
-                    ],
-                    "answer": "मारी फो"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_13",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "translation_input",
-            "prompt_nepali": "यसलाई Tamang भाषामा लेख्नुहोस्",
-            "media": {},
-            "languages": {
-                "nepali": {
-                    "prompt": "तपाईंको उमेर कति भयो?"
-                },
-                "tamang": {
-                    "answer": "नोः गित्ती वार्से जोल?"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_14",
-            "topic": "Greetings and Basic Phrases",
-            "question_type": "fill_in_the_blanks",
-            "prompt_nepali": "खाली स्थान भर्नुहोस्: लास्सो, नो ___ रे?",
-            "media": {},
-            "languages": {
-                "tamang": {
-                    "options": [
-                        "कोथे",
-                        "कनी",
-                        "तारी"
-                    ],
-                    "answer": "कोथे"
-                }
-            }
-        },
-        {
-            "concept_id": "greetings_and_basic_phrases_15",
-            "topic": "Greetings and Basic Phrases",
+            "concept_id": "basic_phrases_7",
+            "topic": "Basic Phrases",
             "question_type": "multiple_choice",
-            "prompt_nepali": "'थुस्सी' (धन्यवाद) को जवाफ के हो?",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'म राम्रो छु' हो?",
             "media": {},
             "languages": {
                 "tamang": {
                     "options": [
-                        "लास्सो",
-                        "गोजो फैय",
-                        "जो या"
+                        "ङ ज्यबा मु",
+                        "इ खाले मु?",
+                        "थे खाले मु?"
                     ],
-                    "answer": "गोजो फैय"
+                    "answer": "ङ ज्यबा मु"
+                }
+            }
+        },
+        {
+            "concept_id": "basic_phrases_8",
+            "topic": "Basic Phrases",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'माफ गर्नुहोस्' हो?",
+            "media": {},
+            "languages": {
+                "tamang": {
+                    "options": [
+                        "क्षमा याङ",
+                        "धन्यवाद",
+                        "सेवा"
+                    ],
+                    "answer": "क्षमा याङ"
                 }
             }
         }
