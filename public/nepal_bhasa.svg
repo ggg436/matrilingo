@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Background shape -->
+  <rect width="120" height="120" fill="#D22830" rx="10" ry="10" />
+  
+  <!-- Inner circle for decorative element -->
+  <circle cx="60" cy="60" r="40" fill="#9B1C24" stroke="#FFFFFF" stroke-width="2" />
+  
+  <!-- Letter for Nepal Bhasa -->
+  <text x="60" y="75" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">न</text>
+  
+  <!-- Language name -->
+  <text x="60" y="105" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Nepal Bhasa</text>
+</svg>

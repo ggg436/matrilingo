@@ -19,9 +19,18 @@ const SERVER_LANGUAGE_NAMES: Record<string, string> = {
 
 // Helper function to extract target language from course title
 const extractTargetLanguage = (courseTitle: string) => {
+  // Handle special case for Nepal Bhasa (no "Learn" prefix)
+  if (courseTitle === "Nepal Bhasa") {
+    return "nepal_bhasa";
+  }
+  
   // Expected format: "Learn Nepali" or similar
   const parts = courseTitle.split(" ");
   if (parts.length >= 2) {
+    // Handle special case for Nepal Bhasa with "Learn" prefix
+    if (parts.slice(1).join(" ").toLowerCase() === "nepal bhasa") {
+      return "nepal_bhasa";
+    }
     return parts[1].toLowerCase();
   }
   return null;
@@ -31,29 +40,47 @@ const extractTargetLanguage = (courseTitle: string) => {
 const loadLanguageContent = (targetLanguage: string, userLanguage: string, unit = 1, chapter = 1) => {
   const basePath = path.join(process.cwd(), "questionsfinal");
   
+  // Normalize target language name for file path
+  let normalizedTargetLang = targetLanguage;
+  
+  // Special case for Nepal Bhasa since filename might differ
+  if (targetLanguage.toLowerCase() === "nepal_bhasa" || targetLanguage.toLowerCase() === "nepal bhasa") {
+    normalizedTargetLang = "Nepal Bhasa";
+  } else {
+    // Capitalize first letter of each word
+    normalizedTargetLang = targetLanguage
+      .split('_')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  }
+  
   // Construct path to the language file
   const filePath = path.join(
     basePath,
-    targetLanguage.charAt(0).toUpperCase() + targetLanguage.slice(1),
+    normalizedTargetLang,
     `Unit ${unit}`,
     `Chapter ${chapter}`,
-    `learn_${targetLanguage}_for_${userLanguage}_speakers`
+    `learn_${targetLanguage.replace(' ', '_').toLowerCase()}_for_${userLanguage}_speakers`
   );
   
   // Fallback path if specific language file doesn't exist
   const fallbackPath = path.join(
     basePath,
-    targetLanguage.charAt(0).toUpperCase() + targetLanguage.slice(1),
+    normalizedTargetLang,
     `Unit ${unit}`,
     `Chapter ${chapter}`,
-    `learn_${targetLanguage}_for_english_speakers`
+    `learn_${targetLanguage.replace(' ', '_').toLowerCase()}_for_english_speakers`
   );
   
   try {
     if (fs.existsSync(filePath)) {
+      console.log(`Loading language content from: ${filePath}`);
       return JSON.parse(fs.readFileSync(filePath, "utf-8"));
     } else if (fs.existsSync(fallbackPath)) {
+      console.log(`Loading fallback language content from: ${fallbackPath}`);
       return JSON.parse(fs.readFileSync(fallbackPath, "utf-8"));
+    } else {
+      console.log(`No language file found at ${filePath} or ${fallbackPath}`);
     }
   } catch (error) {
     console.error("Error loading language content:", error);
@@ -94,10 +121,18 @@ const LessonPage = async ({
   let languageContent = null;
   
   if (userProgress.activeCourse) {
+    // Log the course details for debugging
+    console.log(`Active course: ${userProgress.activeCourse.title} (ID: ${userProgress.activeCourse.id})`);
+    
     const targetLanguage = extractTargetLanguage(userProgress.activeCourse.title);
+    console.log(`Extracted target language: ${targetLanguage}`);
     
     if (targetLanguage) {
       languageContent = loadLanguageContent(targetLanguage, userLanguage);
+      
+      if (languageContent) {
+        console.log(`Loaded language content with ${languageContent.questions?.length || 0} questions`);
+      }
     }
   }
 

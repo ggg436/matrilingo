@@ -10,9 +10,18 @@
             "languages": {
                 "bhojpuri": {
                     "options": [
-                        { "image": "images/man.svg", "text": "आदमी" },
-                        { "image": "images/woman.svg", "text": "औरत" },
-                        { "image": "images/robot.svg", "text": "रोबोट" }
+                        {
+                            "image": "images/man.svg",
+                            "text": "आदमी"
+                        },
+                        {
+                            "image": "images/woman.svg",
+                            "text": "औरत"
+                        },
+                        {
+                            "image": "images/robot.svg",
+                            "text": "रोबोट"
+                        }
                     ],
                     "answer": "आदमी"
                 }
@@ -26,7 +35,11 @@
             "media": {},
             "languages": {
                 "bhojpuri": {
-                    "options": [ "प्रणाम", "धनवाद", "फेर भेंटब" ],
+                    "options": [
+                        "प्रणाम",
+                        "धन्यवाद",
+                        "राम राम"
+                    ],
                     "answer": "प्रणाम"
                 }
             }
@@ -39,8 +52,12 @@
             "media": {},
             "languages": {
                 "bhojpuri": {
-                    "options": [ "प्रणाम", "धनवाद", "स्वागत बा" ],
-                    "answer": "धनवाद"
+                    "options": [
+                        "प्रणाम",
+                        "धन्यवाद",
+                        "स्वागत बा"
+                    ],
+                    "answer": "धन्यवाद"
                 }
             }
         },
@@ -48,14 +65,14 @@
             "concept_id": "greetings_and_basic_phrases_3",
             "topic": "Greetings and Basic Phrases",
             "question_type": "translation_input",
-            "prompt_nepali": "यसलाई भोजपुरी भाषामा लेख्नुहोस्",
+            "prompt_nepali": "यसलाई Bhojpuri भाषामा लेख्नुहोस्",
             "media": {},
             "languages": {
                 "nepali": {
-                    "prompt": "मेरो नाम सञ्जय हो"
+                    "prompt": "मेरो नाम राम हो"
                 },
                 "bhojpuri": {
-                    "answer": "हमार नाम संजय बा"
+                    "answer": "हमार नाम राम हवे"
                 }
             }
         },
@@ -63,12 +80,17 @@
             "concept_id": "greetings_and_basic_phrases_4",
             "topic": "Greetings and Basic Phrases",
             "question_type": "select_the_word",
-            "prompt_nepali": "'फेरि भेटौंला' को लागि शब्द चयन गर्नुहोस्।",
+            "prompt_nepali": "'बिदा' को लागि शब्द चयन गर्नुहोस्।",
             "media": {},
             "languages": {
                 "bhojpuri": {
-                    "options": ["प्रणाम", "धनवाद", "फेर भेंटब", "स्वागत बा"],
-                    "answer": "फेर भेंटब"
+                    "options": [
+                        "प्रणाम",
+                        "धन्यवाद",
+                        "राम राम",
+                        "स्वागत बा"
+                    ],
+                    "answer": "राम राम"
                 }
             }
         },
@@ -76,26 +98,35 @@
             "concept_id": "greetings_and_basic_phrases_5",
             "topic": "Greetings and Basic Phrases",
             "question_type": "construct_the_phrase",
-            "prompt_nepali": "'तपाईंको नाम के हो?' को लागि वाक्य बनाउनुहोस्।",
+            "prompt_nepali": "'तिम्रो नाम के हो?' को लागि वाक्य बनाउनुहोस्।",
             "media": {},
             "languages": {
                 "bhojpuri": {
-                    "word_bank": ["नाम", "का", "बा", "तोहार", "?"],
-                    "answer": "तोहार नाम का बा?"
+                    "word_bank": [
+                        "तोहार",
+                        "नाम",
+                        "का",
+                        "हवे",
+                        "?"
+                    ],
+                    "answer": "तोहार नाम का हवे?"
                 }
             }
         },
         {
             "concept_id": "greetings_and_basic_phrases_6",
             "topic": "Greetings and Basic Phrases",
-            "question_type": "listening_exercise",
-            "prompt_nepali": "सुन्नुहोस् र के सुन्नुभयो त्यो लेख्नुहोस्।",
-            "media": {
-                "audio": "audio/ham_khush_baani.mp3"
-            },
+            "question_type": "multiple_choice",
+            "prompt_nepali": "'म खुशी छु' को अनुवाद के हो?",
+            "media": {},
             "languages": {
                 "bhojpuri": {
-                    "answer": "हम खुश बानी"
+                    "options": [
+                        "हम खुश हईं",
+                        "हम दुःखी हईं",
+                        "हम गुस्सा में हईं"
+                    ],
+                    "answer": "हम खुश हईं"
                 }
             }
         },
@@ -103,12 +134,16 @@
             "concept_id": "greetings_and_basic_phrases_7",
             "topic": "Greetings and Basic Phrases",
             "question_type": "fill_in_the_blanks",
-            "prompt_nepali": "खाली ठाउँ भर्नुहोस्: तोहरा से ___ मिलके बहुत खुशी भइल।",
+            "prompt_nepali": "खाली स्थान भर्नुहोस्: तोहसे ___ भेंट भइल।",
             "media": {},
             "languages": {
                 "bhojpuri": {
-                    "options": ["फेर", "संगे", "पहिला बार"],
-                    "answer": "फेर"
+                    "options": [
+                        "मिलके",
+                        "देखके",
+                        "सुनके"
+                    ],
+                    "answer": "मिलके"
                 }
             }
         },
@@ -116,31 +151,31 @@
             "concept_id": "greetings_and_basic_phrases_8",
             "topic": "Greetings and Basic Phrases",
             "question_type": "translation_input",
-            "prompt_nepali": "यसलाई भोजपुरी भाषामा लेख्नुहोस्",
+            "prompt_nepali": "यसलाई Bhojpuri भाषामा लेख्नुहोस्",
             "media": {},
             "languages": {
                 "nepali": {
                     "prompt": "शुभ बिहानी"
                 },
                 "bhojpuri": {
-                    "answer": "शुभ प्रभात"
+                    "answer": "सुप्रभात"
                 }
             }
         },
         {
             "concept_id": "greetings_and_basic_phrases_9",
             "topic": "Greetings and Basic Phrases",
-            "question_type": "multiple_choice_image",
-            "prompt_nepali": "कुन चित्रले 'म खुशी छु' जनाउँछ?",
+            "question_type": "multiple_choice",
+            "prompt_nepali": "यी मध्ये कुन चाहिँ 'स्वागत छ' हो?",
             "media": {},
             "languages": {
                 "bhojpuri": {
                     "options": [
-                        { "image": "images/happy.png", "text": "हम खुश बानी" },
-                        { "image": "images/sad.png", "text": "हम दुखी बानी" },
-                        { "image": "images/angry.png", "text": "हम गुस्सा में बानी" }
+                        "प्रणाम",
+                        "स्वागत बा",
+                        "राम राम"
                     ],
-                    "answer": "हम खुश बानी"
+                    "answer": "स्वागत बा"
                 }
             }
         },
@@ -148,12 +183,18 @@
             "concept_id": "greetings_and_basic_phrases_10",
             "topic": "Greetings and Basic Phrases",
             "question_type": "construct_the_phrase",
-            "prompt_nepali": "'म नेपालबाट हुँ।' को लागि वाक्य बनाउनुहोस्।",
+            "prompt_nepali": "'म नेपालबाट हुँ' को लागि वाक्य बनाउनुहोस्।",
             "media": {},
             "languages": {
                 "bhojpuri": {
-                    "word_bank": ["हम", "नेपाल", "के", "बानी", "।"],
-                    "answer": "हम नेपाल के बानी।"
+                    "word_bank": [
+                        "हम",
+                        "नेपाल",
+                        "से",
+                        "हईं",
+                        "।"
+                    ],
+                    "answer": "हम नेपाल से हईं।"
                 }
             }
         },
@@ -161,7 +202,7 @@
             "concept_id": "greetings_and_basic_phrases_11",
             "topic": "Greetings and Basic Phrases",
             "question_type": "true_or_false",
-            "prompt_nepali": "के 'मैले बुझिन' को अर्थ 'हम ना समझनी' हो?",
+            "prompt_nepali": "के 'हम ना समझलीं' को अर्थ 'मैले बुझिन' हो?",
             "media": {},
             "languages": {
                 "nepali": {
@@ -169,7 +210,7 @@
                 },
                 "answer": true,
                 "bhojpuri": {
-                    "phrase": "हम ना समझनी"
+                    "phrase": "हम ना समझलीं"
                 }
             }
         },
@@ -181,7 +222,12 @@
             "media": {},
             "languages": {
                 "bhojpuri": {
-                    "options": ["माफ करीं", "कृपया", "क्षमा करीं", "धनवाद"],
+                    "options": [
+                        "माफ करीं",
+                        "कृपया",
+                        "माफी चाहतानी",
+                        "धन्यवाद"
+                    ],
                     "answer": "माफ करीं"
                 }
             }
@@ -190,14 +236,14 @@
             "concept_id": "greetings_and_basic_phrases_13",
             "topic": "Greetings and Basic Phrases",
             "question_type": "translation_input",
-            "prompt_nepali": "यसलाई भोजपुरी भाषामा लेख्नुहोस्",
+            "prompt_nepali": "यसलाई Bhojpuri भाषामा लेख्नुहोस्",
             "media": {},
             "languages": {
                 "nepali": {
                     "prompt": "तपाईंको उमेर कति भयो?"
                 },
                 "bhojpuri": {
-                    "answer": "तोहार उमिर कतना बा?"
+                    "answer": "तोहार उमिर कतना हवे?"
                 }
             }
         },
@@ -205,12 +251,16 @@
             "concept_id": "greetings_and_basic_phrases_14",
             "topic": "Greetings and Basic Phrases",
             "question_type": "fill_in_the_blanks",
-            "prompt_nepali": "खाली ठाउँ भर्नुहोस्: प्रणाम। तू ___ बाड़ा?",
+            "prompt_nepali": "खाली स्थान भर्नुहोस्: प्रणाम, तू ___ बाड़ऽ?",
             "media": {},
             "languages": {
                 "bhojpuri": {
-                    "options": ["केसन", "का", "ठीक"],
-                    "answer": "केसन"
+                    "options": [
+                        "केहन",
+                        "कहाँ",
+                        "काहे"
+                    ],
+                    "answer": "केहन"
                 }
             }
         },
@@ -218,14 +268,18 @@
             "concept_id": "greetings_and_basic_phrases_15",
             "topic": "Greetings and Basic Phrases",
             "question_type": "multiple_choice",
-            "prompt_nepali": "'धनवाद' को जवाफ के हो?",
+            "prompt_nepali": "'धन्यवाद' (धन्यवाद) को जवाफ के हो?",
             "media": {},
             "languages": {
                 "bhojpuri": {
-                    "options": [ "प्रणाम", "स्वागत बा", "फेर भेंटब" ],
+                    "options": [
+                        "प्रणाम",
+                        "स्वागत बा",
+                        "राम राम"
+                    ],
                     "answer": "स्वागत बा"
                 }
             }
         }
     ]
-} 
+}
